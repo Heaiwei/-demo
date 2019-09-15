@@ -1,0 +1,83 @@
+.Login{
+    position: absolute;
+    margin-left: 350px;
+    margin-top: 345px;
+    border-radius: 10px;
+    width: 160px;
+    height: 200px;
+    background-color: #FFAF60;
+    overflow: hidden;
+    list-style: none;
+    box-shadow:0px 0px  10px 2px #848484;
+}
+.Navi-Login{
+    float: right;
+    margin-top: 10px;
+    margin-right: 10px;
+    font-size: 14px;
+    color:#ffffff;
+}
+.About{
+    float: left;
+    margin-top: 30px;
+    margin-left: 35px;
+    cursor:pointer;
+    padding: 0px 10px;
+    color:#ffffff;
+}
+.Login-Icon{
+    width: 30px;
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 65px;
+    background-size:contain;
+    background-image:url("../../img/log.png");
+}
+.About-Login{
+    float: left;
+    margin-left: 15px;
+    overflow: hidden;
+    height: 30px;
+    padding: 5px 10px;
+    color:#ffffff;
+}
+.Welcome-user{
+    position: absolute;
+    margin-top: 5px;
+    font-size: 13px;
+}
+.Current-Username{
+    margin-top: 5px;
+    margin-left: 70px;
+    font-weight:bold;
+    color: #219aff;
+    font-size: 13px;
+}
+.Privilege-Level{
+    position: absolute;
+    margin-top: 5px;
+    font-size: 13px;
+}
+.Level{
+    margin-top: 5px;
+    margin-left: 70px;
+    font-weight:bold;
+    color: bisque;
+    font-size: 13px;
+}
+.Change-Button{
+    cursor:pointer;
+    margin-left: 0px;
+    border-radius: 10px;
+    width: 110px;
+    height: 25px;
+    margin-bottom: 1px;
+}
+.Logout-Button{
+    cursor:pointer;
+    margin-left: 0px;
+    border-radius: 10px;
+    width: 110px;
+    height: 25px;
+    margin-bottom: 1px;
+}

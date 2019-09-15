@@ -1,0 +1,95 @@
+body{
+    margin:0;
+    padding:0;
+    border: 0;
+}
+a{
+    text-decoration: none;
+}
+.header-wrapper{
+    position:relative;
+    top:0px;
+    z-index: 999;
+    height:250px;
+    width:100%;
+    border-bottom:1px solid #f0f0f0;
+    background-image:url("../../img/head.png");
+    background-size:100% 100%;
+    background-repeat:no-repeat;
+}
+.work-icon{
+    position: absolute;
+    margin-left: 100px;
+    margin-top: 30px;
+    width: 500px;
+    height: 50px;
+}
+.work-icon> h3 {
+    line-height: 50px;
+    color: white;
+}
+.work-home-icon{
+    float: left;
+    /*padding: 0 20px;*/
+    width: 50px;
+    height: 50px;
+    background-image: url("../../img/hnust.jpg");
+    background-size: contain;
+}
+.addition{
+    position:absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    z-index: 1;
+    width:1000px;
+    height: 80px;
+    left: 50%;
+    margin-top: 200px;
+    margin-left: -500px;
+    background: rgba(245, 245, 245, 0.9);
+    box-shadow:0px 0px  10px 2px #848484;
+}
+.head-nav li{
+    float:left;
+    cursor:pointer;
+    padding:0 20px;
+    line-height: 45px;
+    font-size:16px;
+    text-align:center;
+    list-style: none;
+    height: 45px;
+    width: 150px;
+    font-weight: 500;
+    color:#4c56b9;
+}
+
+.about-content{
+    left:0;
+    top:56px;
+    width:110px;
+    margin-left: 20px;
+    background:#fff;
+    box-shadow:0 0 8px rgba(0,0,0,.2);
+}
+.project{
+    box-shadow:0 0 1px rgba(0,0,0,.2);
+}
+.dynamic{
+    box-shadow:0 0 1px rgba(0,0,0,.2);
+}
+.introduction{
+    box-shadow:0 0 1px rgba(0,0,0,.2);
+}
+.honor{
+    box-shadow:0 0 1px rgba(0,0,0,.2);
+}
+.doucument-option{
+    box-shadow:0 0 1px rgba(0,0,0,.2);
+}
+.post{
+    box-shadow:0 0 1px rgba(0,0,0,.2);
+}
+.post-detail{
+    box-shadow:0 0 1px rgba(0,0,0,.2);
+}
